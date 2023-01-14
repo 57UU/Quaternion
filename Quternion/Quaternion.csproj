@@ -33,10 +33,16 @@
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net6.0-android|AnyCPU'">
 	  <AndroidPackageFormat>apk</AndroidPackageFormat>
 	  <AndroidCreatePackagePerAbi>True</AndroidCreatePackagePerAbi>
+	  <Debugger>Xamarin</Debugger>
+	  <EnableLLVM>False</EnableLLVM>
+	  <TrimMode>link</TrimMode>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0-android|AnyCPU'">
 	  <AndroidCreatePackagePerAbi>True</AndroidCreatePackagePerAbi>
+	  <Debugger>Xamarin</Debugger>
+	  <EnableLLVM>False</EnableLLVM>
+	  <TrimMode>link</TrimMode>
 	</PropertyGroup>
 
 	<ItemGroup>

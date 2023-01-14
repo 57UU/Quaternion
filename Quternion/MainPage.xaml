@@ -9,11 +9,15 @@
             Spacing="25"
             Padding="30,0"
             VerticalOptions="Center">
+            <Button Text="Reload" Clicked="Button_Clicked_1"/>
             <Label Text="Horizon"/>
             <control:Adjust x:Name="horizon"/>
             <Label Text="Vertical"/>
             <control:Adjust x:Name="vertical"/>
             <Button Text="Toggle Sensor" Clicked="Button_Clicked"/>
+            <Button Text="debug" Clicked="Button_Clicked_2"/>
+            <Label x:Name="status" Text="?"/>
+            <Label x:Name="point" Text="!"/>
 
 
         </VerticalStackLayout>

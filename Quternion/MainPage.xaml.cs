@@ -64,7 +64,7 @@ public partial class MainPage : ContentPage
         Quaternion p0=new Quaternion(0,1,0,0);
         Quaternion p1=q*p0*Quaternion.Conjugate(q);
 
-        status.Text = $"{{X:{p1.X} Y:{p1.Y} Z:{p1.Z} W:{p1.W}}}";
+        status.Text = $"{{X:{p1.X} Y:{p1.Y} Z:{p1.Z} W:{p1.W}}}";.
 
         float x, y,z;
         x=p1.X; y=p1.Y;z=p1.Z;
